@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact & enquiry | GRANIQ – Indian Granite</title>
+<meta name="description" content="Request a quotation for Indian granite slabs, tiles, countertops, memorials and outdoor stone. Visit us in Warsaw, February 2027.">
+<meta name="theme-color" content="#fbfaf7">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="GRANIQ – Indian Granite">
+<meta property="og:title" content="Contact &amp; enquiry | GRANIQ – Indian Granite">
+<meta property="og:description" content="Request a quotation for Indian granite slabs, tiles, countertops, memorials and outdoor stone. Visit us in Warsaw, February 2027.">
+<meta property="og:image" content="assets/img/cover-C-fan-1600.webp">
+<link rel="icon" href="assets/logo/graniq_symbol.svg" type="image/svg+xml">
+<link rel="preload" href="assets/fonts/cormorant.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/inter.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/css/site.css">
+<!-- [Placeholder: canonical URL, analytics and cookie banner to add once the domain is chosen] -->
+</head>
+<body data-page="contact">
+<a class="ph" href="#main" style="position:absolute;left:-999px">Skip to content</a>
+<header class="hdr"><div class="wrap">
+ <a class="logo" href="index.html" aria-label="GRANIQ – Indian Granite, home"><img src="assets/logo/graniq_wordmark.svg" alt="GRANIQ" width="797" height="142"></a>
+ <button class="burger" aria-label="Menu" aria-expanded="false" aria-controls="nav"><span></span><span></span><span></span></button>
+ <nav class="nav" id="nav" aria-label="Main"><a href="collection.html">Collection</a><a href="applications.html">Applications</a><a href="infrastructure.html">Infrastructure</a><a href="about.html">About</a><a class="btn" href="contact.html" aria-current=page>Enquire</a></nav>
+</div></header>
+<main id="main">
+
+<section class="phero"><div class="wrap">
+ <div><div class="eyebrow">Contact &amp; enquiry</div><h1>Let’s talk<span class="script">stone</span></h1></div>
+ <p class="lead">Tell us what you need and we will come back with a quotation and current slab photos.</p>
+</div></section>
+<section class="sec tight"><div class="wrap contact">
+ <div>
+  <!-- ENQUIRY FORM: frontend only. [Placeholder: wire up to a form endpoint / CRM before launch.]
+       Until then it opens the visitor's email app with the filled-in enquiry addressed to trade@poddarstones.com. -->
+  <form class="enq" id="enq" action="mailto:trade@poddarstones.com" method="post" enctype="text/plain" data-endpoint="" novalidate>
+   <div><label for="f-name">Name *</label><input id="f-name" name="Name" required autocomplete="name"></div>
+   <div><label for="f-company">Company</label><input id="f-company" name="Company" autocomplete="organization"></div>
+   <div><label for="f-email">Email *</label><input id="f-email" name="Email" type="email" required autocomplete="email"></div>
+   <div><label for="f-phone">Phone</label><input id="f-phone" name="Phone" type="tel" autocomplete="tel"></div>
+   <div><label for="f-country">Country</label><input id="f-country" name="Country" autocomplete="country-name"></div>
+   <div><label for="f-type">I am a</label><select id="f-type" name="Business"><option value="">Please choose</option><option>Fabricator / worktop maker</option><option>Memorial mason</option><option>Importer / distributor</option><option>Contractor / architect</option><option>Other</option></select></div>
+   <div><label for="f-stone">Stone</label><select id="f-stone" name="Stone"><option value="">Choose a colour</option><option>Astoria</option><option>Astoria Wave</option><option>Black Forest</option><option>Black Galaxy</option><option>Black Pearl</option><option>Canyon Gold</option><option>Colonial White</option><option>Imperial Gold</option><option>Ivory Fantasy</option><option>Ivory White</option><option>Kashmir Gold</option><option>Kashmir White</option><option>Kuppam White</option><option>Lavender Blue</option><option>Ocean White</option><option>Panda Gold</option><option>Red Multicolour</option><option>Steam White</option><option>Steel Grey</option><option>Tan Brown</option><option>Titanium Black</option><option>Titanium Gold</option><option>Viscount White</option><option>Other / not sure</option></select></div>
+   <div><label for="f-prod">Product</label><select id="f-prod" name="Product"><option value="">Please choose</option><option>Wire-saw slabs</option><option>Tiles</option><option>Countertops &amp; vanity tops</option><option>Memorials / monument sets</option><option>Paving, setts &amp; kerbs</option><option>Steps &amp; cladding</option><option>Other</option></select></div>
+   <div><label for="f-size">Size</label><input id="f-size" name="Size" placeholder="e.g. full slabs, 60×60 cm"></div>
+   <div><label for="f-thick">Thickness</label><select id="f-thick" name="Thickness"><option value="">Please choose</option><option>2 cm</option><option>3 cm</option><option>Other</option></select></div>
+   <div><label for="f-fin">Finish</label><select id="f-fin" name="Finish"><option value="">Please choose</option><option>Polished</option><option>Honed</option><option>Leathered</option><option>Flamed</option><option>Bush-hammered</option><option>Sandblasted</option><option>Other</option></select></div>
+   <div><label for="f-qty">Quantity</label><input id="f-qty" name="Quantity" placeholder="e.g. 1 container, 200 m²"></div>
+   <div class="full"><label for="f-port">Destination port</label><input id="f-port" name="Destination port" placeholder="e.g. Gdańsk, Hamburg"></div>
+   <div class="full"><label for="f-msg">Message</label><textarea id="f-msg" name="Message" placeholder="Drawings, set lists, timing…"></textarea></div>
+   <div class="full consent"><input type="checkbox" id="f-ok" required><label for="f-ok" style="text-transform:none;letter-spacing:0;font-size:13.5px;font-weight:300;color:var(--ink2);margin:0">I agree that my details are used to answer this enquiry. <span class="ph">[link privacy policy]</span></label></div>
+   <div class="full"><button class="btn solid" type="submit">Send enquiry</button></div>
+   <p class="formnote"><span class="ph">[Form not yet connected: it currently opens your email app addressed to trade@poddarstones.com. Connect to a form endpoint before launch.]</span></p>
+  </form>
+ </div>
+ <aside>
+  <div class="cbox">
+   <h3>Contact</h3>
+   <div class="row"><span>Email</span><a href="mailto:trade@poddarstones.com">trade@poddarstones.com</a><br><a href="mailto:sales@poddarstones.com">sales@poddarstones.com</a></div>
+   <div class="row"><span>Phone</span><a href="tel:+919929844222">+91 99298 44222</a> (Rahul Poddar)<br><a href="tel:+917442490902">Tel. +91 744 2490902</a></div>
+   <div class="row"><span>Head office</span>B-255 (i), Road No. 06, IPIA, Kota 324005, Rajasthan, India</div>
+   <div class="row"><span>Web</span>www.poddarstones.com <span class="ph">[switch to the new Graniq domain when chosen]</span></div>
+  </div>
+  <div class="expo"><div class="eyebrow">Meet us</div><div class="script">Visit us at Warsaw</div><p style="margin:12px 0 0"><span class="ph">[Exhibition name]</span> · PTAK Warsaw Expo, Poland<br>February 2027 <span class="ph">[exact dates]</span> · Stand <span class="ph">[Hall / Stand No.]</span></p></div>
+  <a class="dl" href="downloads/graniq-indian-granite-brochure-2027.pdf" download><svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M6 2h9l5 5v15H6z"/><path d="M14 2v6h6"/><path d="M12 11v7M9 15l3 3 3-3"/></svg><div><b>Download the brochure</b><small>Collection 2027 · PDF · 18.4 MB</small></div></a>
+ </aside>
+</div></section>
+</main>
+<footer class="ftr"><div class="wrap">
+ <div class="grid">
+  <div><img class="flogo" src="assets/logo/graniq_stacked_reverse.svg" alt="GRANIQ – Indian Granite" width="792" height="430" loading="lazy">
+   <p>Natural granite from India for European kitchens, memorials and outdoor spaces.</p></div>
+  <div><h4>Explore</h4><ul><li><a href="collection.html">Collection</a></li><li><a href="applications.html">Applications</a></li><li><a href="infrastructure.html">Infrastructure &amp; logistics</a></li><li><a href="about.html">About</a></li><li><a href="downloads/graniq-indian-granite-brochure-2027.pdf" download>Brochure (PDF)</a></li></ul></div>
+  <div><h4>Contact</h4><ul><li><a href="mailto:trade@poddarstones.com">trade@poddarstones.com</a></li><li><a href="mailto:sales@poddarstones.com">sales@poddarstones.com</a></li><li><a href="tel:+919929844222">+91 99298 44222</a></li><li><a href="tel:+917442490902">Tel. +91 744 2490902</a></li></ul></div>
+  <div><h4>Head office</h4><p>B-255 (i), Road No. 06, IPIA, Kota 324005, Rajasthan, India</p><h4 style="margin-top:22px">Meet us</h4><p><span class="ph">[Exhibition name]</span> · PTAK Warsaw Expo, Poland · February 2027 · Stand <span class="ph">[Hall / Stand No.]</span></p></div>
+ </div>
+ <div class="bottom">
+  <div class="parent"><img src="assets/img/poddar-udyog-logo.png" alt="Poddar Udyog" width="807" height="307" loading="lazy"><span>Part of the Poddar Udyog group</span></div>
+  <div>© 2027 <span class="ph">[Legal entity name]</span> · <span class="ph">[Imprint / privacy policy links]</span></div>
+ </div>
+</div></footer>
+<script src="assets/js/site.js" defer></script>
+</body>
+</html>
